@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2Fpeople-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg&f=1&nofb=1&ipt=735f2c93066278a9b7ded7d93c9b1d8f3479672c8e0c111983f52eb7423896f2&ipo=images");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    backdrop-filter: blur(2px);
+    background-size:100%; /* Default zoom level */
+    transition: background-size 0.3s ease;
+
+}
+
+.choices{
+    
+    align-items: center;
+    height: 400px;
+    width: 1100px;
+    border-radius:25px;
+    gap: 80px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 195, 200);
+    border: #16429f solid 5px;
+}
+
+
+img{
+    height:250px;
+    width:250px;
+    object-fit: cover;
+    border-radius: 30%;
+    border: 5px solid black;
+    
+
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    opacity: 0.5;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.playagain{
+    
+    margin-top: 20px;
+    padding: 40px 60px;
+    background-color: #468091;
+    border: 2px solid black;
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.playagain:hover{
+    background-color: #a59f6a;
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.Compimg{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap:5rem;
+}
+
+.result{
+    width:800px;
+    height: 200px;
+    background-color: rgb(81, 211, 211);
+    border-radius: 50px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
+    border: #0c2458 solid 5px;
+
+}
+
+
